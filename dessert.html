@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/images/logo-small.png" />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/91abd10b8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Bakers Inn | Desserts</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="/"
+          ><img src="/assets/images/logo-horizontal.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto px-5">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/bread.html">Bread</a>
+                <a class="dropdown-item" href="/cake.html">Cake</a>
+                <a class="dropdown-item" href="/pastries.html">Pastries</a>
+                <a class="dropdown-item" href="/dessert.html">Desserts</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header id="dessert-header">
+      <div class="m-auto">
+        <h1 class="display-1">Desserts</h1>
+      </div>
+    </header>
+
+    <div class="container-fluid text-center product-container dessert">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert1.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Strawberry Icecream<br />
+            ₹45.35
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert2.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Assorted Cupcakes<br />
+            ₹150.59
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert3.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Chocolate Cookies<br />
+            ₹81.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert4.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Special Chocolate Desserts<br />
+            ₹55.66
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert5.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Assorted Mini Cupcakes<br />
+            ₹80.59
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert6.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Chocolate Icecream Cake<br />
+            ₹57.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert7.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Glazed Doughnuts<br />
+            ₹91.59
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/dessert/dessert8.jpg"
+            alt="dessert"
+            class="img-fluid"
+          />
+          <p>
+            Assorted Macaron<br />
+            ₹30.99
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS -->
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal1"
+      aria-hidden="true"
+      id="dessertModal1"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Strawberry Icecream
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert1.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹45.35</h2>
+                <p class="text-justify">
+                  Strawberry ice cream is a flavor of ice cream made with strawberry or strawberry flavoring. 
+                  It is made by blending in fresh strawberries or strawberry flavoring with the eggs, cream, vanilla and sugar used to make ice cream. 
+                  Most strawberry ice cream is colored pink or light red.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal2"
+      aria-hidden="true"
+      id="dessertModal2"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Assorted Cupcakes
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert2.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹150.59</h2>
+                <p class="text-justify">
+                  One of the famous party dessert recipe, Assorted Cupcakes are made using flour, caster sugar and vanilla essence. 
+                  You can garnish it with the whipped-cream or chocolate sauce and relish the delicious dessert! 
+                  This cupcake is a very tempting birthday recipe and is very quick and easy to make!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal3"
+      aria-hidden="true"
+      id="dessertModal3"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Chocolate Cookies
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert3.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹81.99</h2>
+                <p class="text-justify">
+                  A chocolate chip cookie is a drop cookie that features chocolate chips or chocolate morsels as its distinguishing ingredient. 
+                  Chocolate chip cookies originated in the United States around 1938, when Ruth Graves Wakefield chopped up a
+                  Nestlé semi-sweet chocolate bar and added the chopped chocolate to a cookie recipe.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal4"
+      aria-hidden="true"
+      id="dessertModal4"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Special Chocolate Desserts
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert4.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹55.66</h2>
+                <p class="text-justify">
+                  Flourless chocolate cake is a dense cake made from an aerated chocolate custard. 
+                  The first documented form of the cake
+                  was seen in Ferrara, Italy, though some forms of the cake have myths surrounding their origins.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal5"
+      aria-hidden="true"
+      id="dessertModal5"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Assorted Mini Cupcakes
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert5.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹80.59</h2>
+                <p class="text-justify">
+                  Mini cupcakes are regular cupcakes made bite-sized. 
+                  They're just as tasty and fun, but are smaller which means you can
+                  eat more of them and without the guilt or the mess!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal6"
+      aria-hidden="true"
+      id="dessertModal6"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Chocolate Icecream Cake
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert6.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹57.99</h2>
+                <p class="text-justify">
+                  Ice cream cake was originally made from biscuits and cream. 
+                  Victorian era desserts called Bombe glacée (or just bombes) consisted of ice cream and fruit in decorative molds. 
+                  Sometimes these desserts were lined with cake or biscuits.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal7"
+      aria-hidden="true"
+      id="dessertModal7"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Glazed Doughnuts
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert7.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹91.59</h2>
+                <p class="text-justify">
+                  Glaze is very easy to make. All you need is melted salted butter, vanilla, powdered sugar, and a generous splash of milk.
+                  1 : covered or coated with a glaze glazed pottery glazed fish glazed doughnuts. 
+                  2 : covered with or as if with a glassy film glazed eyes. 
+                  3 : marked by lack of expression.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="dessertModal8"
+      aria-hidden="true"
+      id="dessertModal8"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Assorted Macaron
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/dessert/dessert8.jpg" alt="dessert" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹30.99</h2>
+                <p class="text-justify">
+                  A macaron or French macaroon is a sweet meringue-based confection made with egg white, icing sugar, granulated sugar,
+                  almond meal, and food colouring. 
+                  The macaron is traditionally held to have been introduced in France by the Italian chef of queen Catherine de Medici during the Renaissance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div id="contacts" class="container-fluid">
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-12">
+            <h4>Contact Us</h4>
+            <p>
+              bakersinn.kkd@gmail.com <br />
+              +91 91549 11234
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h4>Visit Us</h4>
+            <p>
+              2-1-67, Bhanugudi Junction, Near Anand Theater Complex,
+              Kakinada, India, Andhra Pradesh, 533003
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com/BakersInnKakinada"target="_blank"> <i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/bakers_inn_kakinada"target="_blank"><i class="fab fa-instagram-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div id="copyright">
+        | Copyright © B A K E R S I N N 2021 | Designed by Sowjanya |
+      </div>
+    </footer>
+
+    <!-- jQuery and JS scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>

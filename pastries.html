@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/images/logo-small.png" />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/91abd10b8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Bakers Inn | Pastries</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5" href="/"
+          ><img src="/assets/images/logo-horizontal.png"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto px-5">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/bread.html">Bread</a>
+                <a class="dropdown-item" href="/cake.html">Cake</a>
+                <a class="dropdown-item" href="/pastries.html">Pastries</a>
+                <a class="dropdown-item" href="/dessert.html">Desserts</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER -->
+    <header id="pastries-header" class="container-fluid">
+      <div class="m-auto">
+        <h1 class="display-1">Pasteries</h1>
+      </div>
+    </header>
+
+    <div class="container-fluid text-center product-container pastry">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/pastry/pastry1.jpg"
+            alt="pastry"
+            class="img-fluid"
+          />
+          <p>
+            Croissant<br />
+            ₹84.35
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/pastry/pastry2.jpg"
+            alt="pastry"
+            class="img-fluid"
+          />
+          <p>
+            Assorted Pastries<br />
+            ₹42.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/pastry/pastry3.jpg"
+            alt="pastry"
+            class="img-fluid"
+          />
+          <p>
+            Cinnamon Roll<br />
+            ₹73.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/pastry/pastry4.jpg"
+            alt="pastry"
+            class="img-fluid"
+          />
+          <p>
+            Chocolate Filled Pastries<br />
+            ₹85.55
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/pastry/pastry5.jpg"
+            alt="pastry"
+            class="img-fluid"
+          />
+          <p>
+            Cream Pie<br />
+            ₹49.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/pastry/pastry6.jpg"
+            alt="pastry"
+            class="img-fluid"
+          />
+          <p>
+            Fruit Pizza<br />
+            ₹130.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/pastry/pastry7.jpg"
+            alt="pastry"
+            class="img-fluid"
+          />
+          <p>
+            Herbal Pastries<br />
+            ₹95.99
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <img
+            src="/assets/images/pastry/pastry8.jpg"
+            alt="pastry"
+            class="img-fluid"
+          />
+          <p>
+            Whole Wheat Pastries<br />
+            ₹76.99
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS -->
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="pastryModal1"
+      aria-hidden="true"
+      id="pastryModal1"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Croissant
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/pastry/pastry1.jpg" alt="pastry" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹84.35</h2>
+                <p class="text-justify">
+                  A croissant is a buttery, flaky, viennoiserie pastry of Austrian origin, but mostly associated with France. 
+                  Croissants are named for their historical crescent shape and, like other viennoiserie, are made of a layered yeast-leavened dough
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="pastryModal2"
+      aria-hidden="true"
+      id="pastryModal2"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Assorted Pastries
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/pastry/pastry2.jpg" alt="pastry" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹42.99</h2>
+                <p class="text-justify">
+                  This bunch if pastries consisting of various kinds mixed together;are remarkably miscellaneous
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="pastryModal3"
+      aria-hidden="true"
+      id="pastryModal3"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Cinnamon Roll
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/pastry/pastry3.jpg" alt="pastry" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹73.99</h2>
+                <p class="text-justify">
+                  A cinnamon roll is a sweet roll commonly served in Northern Europe and North America. 
+                  In Sweden it is called kanelbulle,in Denmark it is known as kanelsnegl, in Norway it is known as kanelbolle, skillingsboller or kanelsnurr, and in Finland
+                  it is known as korvapuusti. In Austria and Germany it is called Zimtschnecke.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="pastryModal4"
+      aria-hidden="true"
+      id="pastryModal4"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Chocolate Filled Pastries
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/pastry/pastry4.jpg" alt="pastry" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹85.55</h2>
+                <p class="text-justify">
+                  The pastry is filled with various flavors of cream and is often topped with chocolate. 
+                  These pastries can also be filled
+                  with ingredients such as cheese, tuna, or chicken to be used as appetizers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="pastryModal5"
+      aria-hidden="true"
+      id="pastryModal5"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Cream Pie
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/pastry/pastry5.jpg" alt="pastry" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹49.99</h2>
+                <p class="text-justify">
+                  A cream pie, crème pie, or creme pie is a type of pie filled with a rich custard or pudding that is made from milk,
+                  cream, sugar, wheat flour, and eggs. It comes in many forms, including vanilla, lemon, lime, peanut butter, banana,
+                  coconut, and chocolate. One feature of most cream pies is a whipped cream topping.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="pastryModal6"
+      aria-hidden="true"
+      id="pastryModal6"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Fruit Pizza
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/pastry/pastry6.jpg" alt="pastry" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹130.99</h2>
+                <p class="text-justify">
+                  A fruit pizza is a type of pastry that is distinguished by its pizza-shaped cookie crust, frosting, and fruit toppings. 
+                  Fruit pizza is well known for the colorful designs and patterns made by the intricate
+                  arrangement of the many different fruits topping the dessert. 
+                  Fruit pizza is often seen as a healthier dessert option due to the prominence of fresh fruit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="pastryModal7"
+      aria-hidden="true"
+      id="pastryModal7"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Herbal Pastries
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/pastry/pastry7.jpg" alt="pastry" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹95.99</h2>
+                <p class="text-justify">
+                  Flavors can range from mild, such as in flowers like roses, to more bitter or medicinal, like juniper berries. 
+                  A variety of other herbs, spices, roots and similar plant byproducts fall into this category. 
+                  While this context-dependent definition is not particularly precise, it's well suited for work inside kitchens and bakeries.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade bd-example-modal-lg m-auto"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="pastryModal8"
+      aria-hidden="true"
+      id="pastryModal8"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Whole Wheat Pastries
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <img src="/assets/images/pastry/pastry8.jpg" alt="pastry" />
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <h2>Price: ₹76.99</h2>
+                <p class="text-justify">
+                  Whole wheat pastry flour is made from the complete wheat kernel, meaning that it is less processed and more nutritious
+                  than enriched and bleached pastry flour. Whole wheat pastry flour adds a nutty, slightly dense texture to pastries.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div id="contacts" class="container-fluid">
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-12">
+            <h4>Contact Us</h4>
+            <p>
+              bakersinn.kkd@gmail.com <br />
+              +91 91549 11234
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h4>Visit Us</h4>
+            <p>
+              2-1-67, Bhanugudi Junction, Near Anand Theater Complex,
+              Kakinada, India, Andhra Pradesh, 533003
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <h4>Follow Us</h4>
+            <a href="https://www.facebook.com/BakersInnKakinada"target="_blank"> <i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/bakers_inn_kakinada"target="_blank"><i class="fab fa-instagram-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <div id="copyright">
+        | Copyright © B A K E R S I N N 2021 | Designed by Sowjanya |
+      </div>
+    </footer>
+
+    <!-- jQuery and JS scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
